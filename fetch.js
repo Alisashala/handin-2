@@ -4,8 +4,8 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
     .then(response => response.json())
     .then(movieData => {
         console.log(movieData);
-        //exerciseTwo(movieData);
-        //exerciseThree(movieData);
+        exerciseTwo(movieData);
+        exerciseThree(movieData);
         exerciseFour(movieData);
         exerciseFive(movieData);
 
